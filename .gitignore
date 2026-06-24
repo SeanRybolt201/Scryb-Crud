@@ -12,3 +12,14 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local Gradle wrapper download directory should be ignored
+.gradle-wrapper/
+
+# Build output directories should be ignored
+bin/
+build/
+
+# Ensure wrapper launcher scripts are tracked
+!gradlew
+!gradlew.bat
